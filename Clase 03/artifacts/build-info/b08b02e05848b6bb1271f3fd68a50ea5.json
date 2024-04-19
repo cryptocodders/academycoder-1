@@ -1,13 +1,13 @@
 {
-	"id": "5b2d9e3e8a01650b5f57af174be082d7",
+	"id": "b08b02e05848b6bb1271f3fd68a50ea5",
 	"_format": "hh-sol-build-info-1",
-	"solcVersion": "0.8.17",
-	"solcLongVersion": "0.8.17+commit.8df45f5f",
+	"solcVersion": "0.8.25",
+	"solcLongVersion": "0.8.25+commit.b61c2a91",
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"Clase 03/SimpleWallet.sol": {
-				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.2;\n"
+			"Clase 03/SimpleWalletOwner.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.2;\n\n"
 			}
 		},
 		"settings": {
@@ -40,9 +40,9 @@
 	},
 	"output": {
 		"sources": {
-			"Clase 03/SimpleWallet.sol": {
+			"Clase 03/SimpleWalletOwner.sol": {
 				"ast": {
-					"absolutePath": "Clase 03/SimpleWallet.sol",
+					"absolutePath": "Clase 03/SimpleWalletOwner.sol",
 					"exportedSymbols": {},
 					"id": 2,
 					"license": "MIT",
@@ -60,7 +60,7 @@
 							"src": "32:23:0"
 						}
 					],
-					"src": "32:24:0"
+					"src": "32:25:0"
 				},
 				"id": 0
 			}

@@ -1,18 +1,23 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "hola",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +25,19 @@
 			},
 			{
 				"inputs": [],
-				"name": "obtenerSaludo",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -34,27 +46,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "nombre",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
 					}
 				],
-				"name": "saludar",
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "saludo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,9 +70,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Clase 02/SaludoContrato.sol": "SaludoContrato"
+			"Clase 03/SimpleWalletO.sol": "Wallet"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Clase 02/SaludoContrato.sol": {
-			"keccak256": "0x323b0787cf5774c9d4e346c629e2827f8b3a7e13b08dce0a57dd23dfd9fada2d",
+		"Clase 03/SimpleWalletO.sol": {
+			"keccak256": "0x245efe833e898fae1ea7387940d337c051babb7191cdc7592c1f4b50aa0e7bcd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://023477bec9ac820f4d03453f75e95487699fca2060ee1080902aeffea885a12b",
-				"dweb:/ipfs/QmQMDTwVT3GFfRCBwD5iZCms8pWJM46ZaJn1hW63bpv1oY"
+				"bzz-raw://855f7747e6e6181811fcfdc1acfec1e8f87078e3d84ca3af3c3a9966f251fcff",
+				"dweb:/ipfs/Qmb9T4rv9mdcUxoStmLRdv4a51VsentR5VLXncRFw9mSmz"
 			]
 		}
 	},

@@ -4,7 +4,125 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getS",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myMapS",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_i",
+						"type": "string"
+					}
+				],
+				"name": "setS",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +151,11 @@
 	},
 	"sources": {
 		"Clase 03/myMap.sol": {
-			"keccak256": "0x4435a30c169ca71cdd11e671ed8cfdac6506d0a88976768034b0d2b332d65108",
+			"keccak256": "0x73528f03ca5dc58fe54f3c23f93e0470d0042eee29f6e307812f7ac23c1ba262",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://91eab3ccff16b9d20fcab25d54781a58d90d24631a9eb8f185fe84e53fb256e1",
-				"dweb:/ipfs/QmPbCU9X4txiSH7eZqCEXiWnBvPwQZPGLm5JzHJuVC8veZ"
+				"bzz-raw://74001504ace8c4904fda9de83aa4bea94663e7fbe3b3f0642b916eb7c045f7ef",
+				"dweb:/ipfs/QmUgpV6XsD8hVtk3Z2wENeuzNzHt7mKPqHU1HrPHVdoods"
 			]
 		}
 	},

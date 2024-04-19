@@ -6,50 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
-				"outputs": [
-					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "balance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkBalance",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -68,36 +32,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getOwner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
@@ -135,11 +73,11 @@
 	},
 	"sources": {
 		"Clase 03/SimpleWallet.sol": {
-			"keccak256": "0x62a0c0240829a8f3211a8de1ed578a2e5751d3bcda0f0988c6115d38d4e1a072",
+			"keccak256": "0x75e8b4a92b1c620c697b308a88777703b9cab70d293f76790c5759c888574763",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d763f4bf41fc69c94016eef9a47a09317514957b951aec295ce1bf762d1bf24c",
-				"dweb:/ipfs/Qme5FLDxMHemT7azHme7CZ1eFJBWQyDcB1gxdJfHyXHss8"
+				"bzz-raw://0864eaea80638c070d541c1476a4fd64aa32c741abfb09b2d6050eb8dbe74ba8",
+				"dweb:/ipfs/QmT5FAXUktCWPiF5c56TuhWRYrwn7PM5nryhMbx6yuJQ7G"
 			]
 		}
 	},

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 03/SimpleWalletO.sol": "wallet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 03/SimpleWalletO.sol": {
+			"keccak256": "0xdbcf32dcec7b07b66df04cfcde25f004afccd184f0ebe2439480853e8028da83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a4e37f58643b3a03a28d0972798c18ee0e7b9d70e26d3b3d28ce87ee60c1853",
+				"dweb:/ipfs/QmfARrgt7Uod4zKGiEE8uxHU4qHc8K91gFkrVJ4u1VEfVJ"
+			]
+		}
+	},
+	"version": 1
+}

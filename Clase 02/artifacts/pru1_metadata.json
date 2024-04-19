@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -92,9 +92,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Clase 02/SaludoContrato.sol": "pru1"
+			"Clase 02/pru1.sol": "pru1"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -106,12 +106,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Clase 02/SaludoContrato.sol": {
-			"keccak256": "0xba6c380fd6baf6cc12fce5660d9c5dc5de2b717946f2dda43fff21a2fff79026",
+		"Clase 02/pru1.sol": {
+			"keccak256": "0xcbf3e4b0f2fcd478b44c9a2f12cd35f7f29474ffc0e4b894f76bdb0ac21a3d63",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://476042f366b0c15621ea5ef225e1384bcd83767f8c52af487d159f4d94b46be5",
-				"dweb:/ipfs/QmPVhh3gXwXT9qeV8viMQBA3t6Ym6yxYDUjiLCK2djXH9M"
+				"bzz-raw://c18fbac97d31f4866ae184c0e1c141468b526e9db73f84be0d5fd346ff987581",
+				"dweb:/ipfs/QmdT8dKtHTK8hsBvQe1ANx15R9ziL9tbn6KxunWw8MjDCo"
 			]
 		}
 	},
