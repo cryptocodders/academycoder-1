@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.22;
 
-contract AlmacenamientoYMemoria {
+contract TiempoYGas {
     // Variable de almacenamiento: Permanece en la cadena de bloques
     uint256 public datosPermanentes;
 
