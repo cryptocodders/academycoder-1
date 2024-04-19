@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_nuevoDato",
+						"type": "uint256"
+					}
+				],
+				"name": "actualizarDatosPermanentes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tempData",
+						"type": "uint256"
+					}
+				],
+				"name": "almacenarTemp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "datosPermanentes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 03/parteFabri/storage.sol": "TiempoYGas"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 03/parteFabri/storage.sol": {
+			"keccak256": "0x534f41abfc1902fd7bbd28a2ec117accb319093b3393adc57edf0b7a5c46e271",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b2d65782f23b23c49757baf20a99e8cc68fdb86fa0c43a0f187bd997745dca3",
+				"dweb:/ipfs/QmSCvBw59mkn4VWhBXhRPaG7FjeNDkjaALrsop99MAsr5z"
+			]
+		}
+	},
+	"version": 1
+}

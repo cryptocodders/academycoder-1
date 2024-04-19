@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 03/walletMapping.sol": "walletMapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 03/walletMapping.sol": {
+			"keccak256": "0x9f4edb241aaadc88d63fadcd1b17435ee8f7c0b106c5436a4d655b009798382b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fbe4762598a11ab365134665eb221989df59f0f9a631d24db3d135271dce50b1",
+				"dweb:/ipfs/QmerAyeFtaWCqpNwLSp2FBtLv9ioYVgtqZBC5NHJ5Rc6no"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes4",
+						"name": "sig",
+						"type": "bytes4"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "MessageDetails",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "sendMessage",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 03/msg/msgSC.sol": "MessageExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 03/msg/msgSC.sol": {
+			"keccak256": "0xcff8d80d2a2f42182b870643c5a1c5c6e3b120db7671d06dcdd3b5b4b1876000",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9fade970ba0e1ac4e2e219b6014d292db68bb03ed1242d09c6fecb912094b00",
+				"dweb:/ipfs/QmWn5KAXJQTFbP68WKe9wRczNj9SmxfGBxykVUXxESfGDS"
+			]
+		}
+	},
+	"version": 1
+}

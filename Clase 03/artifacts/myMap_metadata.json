@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 03/myMap.sol": "myMap"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 03/myMap.sol": {
+			"keccak256": "0xcd150ff6545fcb7a055762104aa57f19660b0f5e986ef89f12de48edfe4e09c8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6eda073e2cf319115251124f282b0fe96a22853e35404492c2499a10a2fa4aaf",
+				"dweb:/ipfs/QmaQDV2JfDvqexnFET3ef1jqnWK5TKKEvjZizwQV3KZHbQ"
+			]
+		}
+	},
+	"version": 1
+}

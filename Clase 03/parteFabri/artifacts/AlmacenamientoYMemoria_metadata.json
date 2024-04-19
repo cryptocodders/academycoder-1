@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_nuevoDato",
+						"type": "uint256"
+					}
+				],
+				"name": "actualizarDatosPermanentes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tempData",
+						"type": "uint256"
+					}
+				],
+				"name": "almacenarTemp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "datosPermanentes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 03/parteFabri/AlmacenamientoYMemoria.sol": "AlmacenamientoYMemoria"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 03/parteFabri/AlmacenamientoYMemoria.sol": {
+			"keccak256": "0xb5fe7479ed3afc485ffff7a89632d7788e550661085963595fbfef19b2acf424",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87d68adfe99db1c0c5e1cacbbefd4bf3cdc3740226760eddf909d39c9a2791ec",
+				"dweb:/ipfs/QmRAdjXyCXUbVDNeNrtATPoz3ZNjJpinrM8KuBYXmvCQ1g"
+			]
+		}
+	},
+	"version": 1
+}

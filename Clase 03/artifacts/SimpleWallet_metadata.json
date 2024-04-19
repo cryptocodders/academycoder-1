@@ -120,7 +120,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Clase 03/MyToken.sol": "SimpleWallet"
+			"Clase 03/SimpleWallet.sol": "SimpleWallet"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -134,7 +134,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Clase 03/MyToken.sol": {
+		"Clase 03/SimpleWallet.sol": {
 			"keccak256": "0x62a0c0240829a8f3211a8de1ed578a2e5751d3bcda0f0988c6115d38d4e1a072",
 			"license": "MIT",
 			"urls": [
