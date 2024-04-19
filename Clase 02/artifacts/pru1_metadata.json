@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "adiciona",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "devuelve",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "devuelveNombres",
+				"outputs": [
+					{
+						"internalType": "string[25]",
+						"name": "",
+						"type": "string[25]"
+					},
+					{
+						"internalType": "uint256[25]",
+						"name": "",
+						"type": "uint256[25]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nroPersonas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Clase 02/pru1.sol": "pru1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Clase 02/pru1.sol": {
+			"keccak256": "0xcbf3e4b0f2fcd478b44c9a2f12cd35f7f29474ffc0e4b894f76bdb0ac21a3d63",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c18fbac97d31f4866ae184c0e1c141468b526e9db73f84be0d5fd346ff987581",
+				"dweb:/ipfs/QmdT8dKtHTK8hsBvQe1ANx15R9ziL9tbn6KxunWw8MjDCo"
+			]
+		}
+	},
+	"version": 1
+}
